@@ -8,25 +8,26 @@ namespace PracticeProject
 
         public static void Main(string[] args)
         {
-            //for (int counter = 0; counter < 10; counter++)
-            //{
-            //    Console.WriteLine(counter);
-            //    if(counter == 3)
-            //    {
-            //        Console.WriteLine("at 3 we stop");
-            //        break;
-            //    }
-            //}
-            for (int counter = 0; counter < 10; counter++)
-            {
-                Console.WriteLine(counter);
-                if (counter %2 == 0)
-                {
-                    Console.WriteLine("Here comes an odd number");
-                    continue;
-                }
-            }
-            Console.Read();
+
+            Human sissy = new Human();
+            sissy.firstName = "Sissy";
+            sissy.lastName = "Wagner";
+            sissy.IntroduceMyself();
+
+            Human jaclyn = new Human();
+            jaclyn.firstName = "Jaclyn";
+            jaclyn.lastName = "Shahan";
+            jaclyn.IntroduceMyself();
+
+            Console.ReadKey();
+            //Human jaclyn = new Human();
+            //jaclyn.firstName = "Jaclyn";
+            //jaclyn.IntroduceMyself();
+
+            //Human michael = new Human();
+            //michael.IntroduceMyself();
+            //Console.ReadKey();
+          
         }
     }
 }
