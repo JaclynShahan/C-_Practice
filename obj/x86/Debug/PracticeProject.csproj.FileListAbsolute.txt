@@ -1,0 +1,6 @@
+/Users/jaclyn/Projects/PracticeProject/PracticeProject/bin/Debug/PracticeProject.exe
+/Users/jaclyn/Projects/PracticeProject/PracticeProject/bin/Debug/PracticeProject.pdb
+/Users/jaclyn/Projects/PracticeProject/PracticeProject/obj/x86/Debug/PracticeProject.csprojResolveAssemblyReference.cache
+/Users/jaclyn/Projects/PracticeProject/PracticeProject/obj/x86/Debug/PracticeProject.csproj.CoreCompileInputs.cache
+/Users/jaclyn/Projects/PracticeProject/PracticeProject/obj/x86/Debug/PracticeProject.exe
+/Users/jaclyn/Projects/PracticeProject/PracticeProject/obj/x86/Debug/PracticeProject.pdb
