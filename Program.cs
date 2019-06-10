@@ -9,15 +9,17 @@ namespace PracticeProject
         public static void Main(string[] args)
         {
 
-            Human sissy = new Human();
-            sissy.firstName = "Sissy";
-            sissy.lastName = "Wagner";
+            Human sissy = new Human("Sissy", "Wagner", "green", 43);
             sissy.IntroduceMyself();
 
-            Human jaclyn = new Human();
-            jaclyn.firstName = "Jaclyn";
-            jaclyn.lastName = "Shahan";
+            Human jaclyn = new Human("Jaclyn", "Shahan", "blue", 30);
             jaclyn.IntroduceMyself();
+
+            Human chris = new Human("Chris", "Foster", "blue", 32);
+            chris.IntroduceMyself();
+
+            Human basicHuman = new Human();
+            basicHuman.IntroduceMyself();
 
             Console.ReadKey();
             //Human jaclyn = new Human();
