@@ -8,36 +8,32 @@ namespace PracticeProject
 
         public static void Main(string[] args)
         {
-            Console.WriteLine("What's the temperature like today?");
-            string temperature = Console.ReadLine();
-            int numTemp = int.Parse(temperature);
-            int number;
+            bool isAdmin = false;
+            bool isRegistered = true;
+            Console.WriteLine("Please enter Username:");
+            string userName = Console.ReadLine();
 
-            if(int.TryParse(temperature, out number))
+
+            if (isRegistered && userName != "" && userName.Equals("admin")) ;
             {
-                numTemp = number;
+                Console.WriteLine("Hi there, registered user");
+
+                    Console.WriteLine("Hi There, " + userName);
+                 
+                        Console.WriteLine("Hi there, Admin.");
+                    
+                
             }
-            else
+
+                if(isAdmin || isRegistered)
             {
-                number = 0;
-                Console.WriteLine("value entered was no number. o set as temperature");
+                Console.WriteLine("You are logged in.");
             }
-            if(numTemp < 20)
-            {
-                Console.WriteLine("Take the coat");
-            } else if(numTemp == 20)
-            {
-                Console.WriteLine("Pants and hoodie should be fine");
-            } else if (numTemp > 30)
-            {
-                Console.WriteLine("It's Hot");
-            }
-            else
-            {
-                Console.WriteLine("Shorts are enough for today");
-            }
+
             Console.Read();
         }
+
+
     
     }
 }
